@@ -1,0 +1,143 @@
+.header{
+    background-color: #f9f9f9;
+    height:32px;
+}
+.header-list{
+    float:right;
+    display: flex;
+    justify-content: space-between;
+    margin-right:80px;
+    
+}
+.menu-language{
+    text-decoration: none;
+    
+}
+.menu-language-list{
+    visibility: hidden;
+}
+.header-list li{
+    text-decoration:none;
+    list-style:none;
+    justify-content: flex-end;
+    margin-left: 20px;
+}
+.header-logo{
+    margin-top:30px;
+    display: flex;
+}
+.meeseva-logo{
+    width:160px;
+    height:100px;
+
+}
+.mainheader-text{
+    font-size:34px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    color:#334a92;
+}
+.mainheader2-text{
+    font-size:12px;
+    color:#606060;
+    font-weight:100;
+    list-style:none;
+    letter-spacing: 0.5px;
+}
+.navbar{
+    background-color: hsla(194, 44%, 31%, 0.432);
+    width:100%;
+    height:50px;
+}
+.menu-list{
+
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+.menu-style{
+    margin-left:40px;
+    margin-top: 12px;
+    font-size: 18px;
+    color:#ffffff;
+}
+ a{
+    text-decoration: none;
+
+}
+.menu-icon{
+    font-size:12px;;
+    color:#ffffff;
+}
+.dropdown-menu{
+    position:relative;
+}
+.dropdown-menu1{
+    position: relative;
+}
+.dropdown-menu2{
+    position: relative;
+}
+.dropdown-menu3{
+    position: relative;
+}
+.dropdown-icon{
+    font-size:smaller;
+    color:#ffffff
+}
+.ddmenu{
+    position: absolute;
+    color: #337ab7;
+    margin-top:5px;
+    visibility: hidden;
+
+}
+.ddmenu1{
+    position: absolute;
+    color: #337ab7;
+    margin-top:5px;
+    visibility: hidden;
+
+}
+.ddmenu2{
+    position: absolute;
+    color: #337ab7;
+    margin-top:5px;
+    visibility: hidden;
+
+}
+.ddmenu3{
+    position: absolute;
+    color: #337ab7;
+    margin-top:5px;
+    visibility: hidden;
+}
+.ddmenu-style{
+    list-style: none;
+    margin-bottom:5px;
+    margin-left:-25px;
+    margin-top:10px;
+}
+.bg-imp-alert{
+    background-color:#f5f5f5;
+    line-height: 30px;
+    
+}
+.imp-alert{
+    width:130px;
+    height:10px;
+    background-color: #0097a7;
+    font-size:13px;
+    font-family: 500;
+    letter-spacing: 0.5px;
+    color:#f9f9f9;
+    margin-top:0px;
+    padding:20px;
+    
+}
+.imp-alert-symbol{
+    font-size:x-large;
+    color:#0097a7;
+    margin-left:-6px;
+    margin-top:10px;
+}

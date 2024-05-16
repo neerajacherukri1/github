@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="C:\Users\LENOVO\Desktop\github\meeseva\meeSevaLogo.png" type="image/png">
+    <title>Welcome to Telangana MeeSeva Portal...</title>
+    <link rel="stylesheet" href="meeseva.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="header">
+        <ul class="header-list">
+            <li>skip to content</li>
+         <li><i class="fa-solid fa-wheelchair"></i></li>   
+         <li class="headerFont">A</li>
+         <li class="headerFont">A</li>
+         <li><a href="#" onmouseover="showLanguagemenu();" onmouseout="hideLanguagemenu();"><i class="fa-solid fa-globe" ></i><span class="menu-language">&nbsp;Language</span></a>
+            <ul class="menu-language-list" id="menu-language-list">
+                <li>English</li>
+                <li>Telugu</li>
+            </ul>
+         </li>
+         <li>A-</li>
+         <li>A</li>
+         <li>A+</li>
+        </ul>
+         
+    </div>
+    <div class="header-logo">
+        <img  class="meeseva-logo" src="C:\Users\LENOVO\Desktop\github\meeseva\meeSevaLogo.png" alt="meeseva-logo"/>
+    
+        <h1 class="mainheader-text">MeeSeva<br>   <li class="mainheader2-text">Goverment of Telangana</li></h1>
+      
+    
+    </div>
+    <div class="navbar">
+        <ul class="menu-list" style="margin-left: 100px;">
+        <li class="menu-style"><a href="home.html"><span><i class="fa-solid fa-house-chimney menu-icon"></i>&nbsp;Home</span></a></li>
+        <li class="menu-style"><a href="services.html"><span><i class="fa-solid fa-gear menu-icon"></i>&nbsp;Services</span></a></li>
+        <li class="menu-style"><a href="downloads.html" onmouseover="showdropdownmenu();" onmouseout="hidedropdownmenu();"><span class="dropdown-menu"><i class="fa-solid fa-download menu-icon"></i>&nbsp;Downloads&nbsp;<i class="fa-solid fa-caret-down  dropdown-icon"></i></span></a>
+            <div class="ddmenu" id="ddmenu">
+                <ul>
+                    <li class="ddmenu-style">Downloads</li>
+                    <li class="ddmenu-style">Application Forms</li>
+                </ul>
+                </div>
+                 </li>
+            <li class="menu-style"><a href="otherlinks.html" onmouseover="showdropdownmenu1();" onmouseout="hidedropdownmenu1();"><span class="dropdown-menu1"><i class="fa-solid fa-link menu-icon"></i>&nbsp;Other links&nbsp;<i class="fa-solid fa-caret-down dropdown-icon"></i></span></a>
+                <div class="ddmenu1" id="ddmenu1">
+               <ul>
+                   <li class="ddmenu-style">Goverment Orders</li>
+                   <li class="ddmenu-style">RTI Act</li>
+               </ul>
+             </div>
+           
+           
+           </li>
+           <li class="menu-style"><a href="grivance.html" onmouseover="showdropdownmenu2();" onmouseout="hidedropdownmenu2();"><span class="dropdown-menu2"><i class="fa-regular fa-comment menu-icon"></i>&nbsp;Grivance&nbsp;<i class="fa-solid fa-caret-down dropdown-icon"></i>
+           </span></a>
+               <div class="ddmenu2" id="ddmenu2">
+               <ul>
+                   <li class="ddmenu-style">Dashboard</li>
+                   <li class="ddmenu-style">fedback</li>
+               </ul>
+           </div>
+        </li>
+        <li class="menu-style"><a href="meesevacenters.html" onmouseover="showdropdownmenu3();" onmouseout="hidedropdownmenu3();"><span class="dropdown-menu3"><i class="fa-solid fa-location-dot menu-icon"></i>&nbsp;MeeSeva Centers&nbsp;<i class="fa-solid fa-caret-down dropdown-icon"></i>
+        </span></a>
+            <div class="ddmenu3" id="ddmenu3">
+            <ul>
+            <li class="ddmenu-style">AuthorizedServiceProvider</li>
+            <li class="ddmenu-style">Map View</li>
+            </ul>
+        </div>
+        </li>
+        <li class="menu-style"><a href="contactus.html"><span><i class="fa-solid fa-phone menu-icon"></i>&nbsp;Conact Us</span></a></li>
+        </ul>
+        </div>
+       
+   <div class="bg-imp-alert" style="display: flex;">
+        <h4 class="imp-alert">Important Alerts!</h4>
+        <i class="fa-solid fa-caret-right imp-alert-symbol"></i>
+
+   </div> 
+    <div class="bg-container">
+        <div></div>
+        <div></div>
+
+    </div>
+
+
+
+    <script>
+        function showLanguagemenu(){
+            document.getElementById('menu-language-list').style.visibility='visible';
+        }
+        function hideLanguagemenu(){
+            document.getElementById('menu-language-list').style.visibility='hidden'
+        }
+        function showdropdownmenu(){
+           document.getElementById('ddmenu').style.visibility='visible';
+
+        }
+        function hidedropdownmenu(){
+           document.getElementById('ddmenu').style.visibility='hidden';
+
+        }
+        function showdropdownmenu1(){
+            document.getElementById('ddmenu1').style.visibility='visible';
+
+         }
+         function hidedropdownmenu1(){
+            document.getElementById('ddmenu1').style.visibility='hidden';
+
+         }
+         function showdropdownmenu2(){
+            document.getElementById('ddmenu2').style.visibility='visible';
+
+         }
+         function hidedropdownmenu2(){
+            document.getElementById('ddmenu2').style.visibility='hidden';
+
+         }
+         function showdropdownmenu3(){
+            document.getElementById('ddmenu3').style.visibility='visible';
+
+         }
+         function hidedropdownmenu3(){
+            document.getElementById('ddmenu3').style.visibility='hidden';
+
+         }
+        </script>
+</body>
+</html>
+
+        
+        
+        
